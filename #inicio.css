@@ -1,0 +1,40 @@
+
+/*Código da Navegação, encontrado em todos os CSS do site*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EBF2FA;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 10;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #05668D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:#05668D;
+    color: aliceblue;
+  }
+
+li a:hover:not(.active) {
+    background-color: #c8dff8;
+    color: #05668D;
+  }
+  
+.active {
+    background-color: #05668D;
+    color: #EBF2FA;
+  }

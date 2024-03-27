@@ -1,0 +1,26 @@
+<style>
+.cent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center
+}
+
+.coluna{
+    columns: 2;
+    column-rule: solid 3px;
+    column-rule-color: rgb(74, 225, 210);
+}
+
+h1{
+    text-align: center;
+    text-shadow:1px 2px 1px rgb(44, 54, 231)
+
+}
+
+p{text-align: left;
+}
+.centra{
+    text-align: center;
+}
+</style>
